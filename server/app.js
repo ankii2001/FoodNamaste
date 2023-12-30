@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const stripe = require("stripe")(sk_test_51OSk3BSGoWfNsqzxRBP2anbdr1XHYJEy8AnjXFLLf1hRRZPw306ytYC3XKLOjnbROZXybEB7Kfnh5PDSvE8nlBGF00axwERsuy);
+const stripe = require("stripe")(process.env.STRIPE_SECRET);
 
 app.use(express.json());
 app.use(cors());
