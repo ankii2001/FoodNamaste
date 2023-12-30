@@ -10,8 +10,5 @@
       "src": "/(.*)",
       "dest": "/app.js"
     }
-  ],
-  "functions": {
-    "api/create-checkout-session": {}
-  }
+  ]
 }
