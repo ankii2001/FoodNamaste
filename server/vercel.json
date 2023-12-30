@@ -1,6 +1,7 @@
 {
     "functions": {
       "api/create-checkout-session": {
+        "handler": "app.js"
       }
     }
   }
