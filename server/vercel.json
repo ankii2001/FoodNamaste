@@ -1,7 +1,8 @@
 {
     "functions": {
       "api/create-checkout-session": {
-        "handler": "app.js"
+        "runtime": "vercel-node@2",
+        "memory": 128
       }
     }
   }
